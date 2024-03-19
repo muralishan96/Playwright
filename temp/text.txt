@@ -1,0 +1,9 @@
+Usecase automated
+1.Register
+2.Login
+3.Addto cart
+4.Checkout
+
+Playwright feature
+1.trigger Chrome -> Login
+2.malutiple tab single Chrome

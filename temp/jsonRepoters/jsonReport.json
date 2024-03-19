@@ -1,0 +1,423 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\opc\\Documents\\Murali_Playwright\\playwright.config.ts",
+    "rootDir": "C:/Users/opc/Documents/Murali_Playwright",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "dot",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "jsonRepoters/jsonReport.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "open": "always"
+        }
+      ],
+      [
+        "C:\\Users\\opc\\Documents\\Murali_Playwright\\node_modules\\allure-playwright\\dist\\index.js",
+        {
+          "detail": true,
+          "outputFolder": "my-allure-results",
+          "suiteTitle": false
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Users/opc/Documents/Murali_Playwright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "setup",
+        "name": "setup",
+        "testDir": "C:/Users/opc/Documents/Murali_Playwright",
+        "testIgnore": [],
+        "testMatch": [
+          "/.*\\.setup\\.ts/"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/opc/Documents/Murali_Playwright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/opc/Documents/Murali_Playwright",
+        "testIgnore": [],
+        "testMatch": [
+          "tests/addCartVerify.test.ts"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.41.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "tests\\auth.setup.ts",
+      "file": "tests/auth.setup.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "authenticate",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "setup",
+              "projectName": "setup",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 6551,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "api => browser.newContext started\n"
+                    },
+                    {
+                      "text": "api <= browser.newContext succeeded\n"
+                    },
+                    {
+                      "text": "api => browserContext.newPage started\n"
+                    },
+                    {
+                      "text": "api <= browserContext.newPage succeeded\n"
+                    },
+                    {
+                      "text": "api => page.goto started\n"
+                    },
+                    {
+                      "text": "api <= page.goto succeeded\n"
+                    },
+                    {
+                      "text": "api => locator.fill started\n"
+                    },
+                    {
+                      "text": "api <= locator.fill succeeded\n"
+                    },
+                    {
+                      "text": "api => locator.fill started\n"
+                    },
+                    {
+                      "text": "api <= locator.fill succeeded\n"
+                    },
+                    {
+                      "text": "api => page.click started\n"
+                    },
+                    {
+                      "text": "api <= page.click succeeded\n"
+                    },
+                    {
+                      "text": "api => page.waitForURL started\n"
+                    },
+                    {
+                      "text": "api <= page.waitForURL succeeded\n"
+                    },
+                    {
+                      "text": "api => browserContext.storageState started\n"
+                    },
+                    {
+                      "text": "api <= browserContext.storageState succeeded\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-02-13T07:20:01.380Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5cfdf7d9fac68b9178d2-1d05d51c413078f6939a",
+          "file": "tests/auth.setup.ts",
+          "line": 7,
+          "column": 6
+        }
+      ]
+    },
+    {
+      "title": "tests\\addCartVerify.test.ts",
+      "file": "tests/addCartVerify.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Cart product verify",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "status": "passed",
+                  "duration": 15562,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "api => browser.newContext started\n"
+                    },
+                    {
+                      "text": "api <= browser.newContext succeeded\n"
+                    },
+                    {
+                      "text": "api => browserContext.newPage started\n"
+                    },
+                    {
+                      "text": "api <= browserContext.newPage succeeded\n"
+                    },
+                    {
+                      "text": "api => page.goto started\n"
+                    },
+                    {
+                      "text": "api <= page.goto succeeded\n"
+                    },
+                    {
+                      "text": "api => page.waitForTimeout started\n"
+                    },
+                    {
+                      "text": "api <= page.waitForTimeout succeeded\n"
+                    },
+                    {
+                      "text": "api => locator.isVisible started\n"
+                    },
+                    {
+                      "text": "api <= locator.isVisible succeeded\n"
+                    },
+                    {
+                      "text": "api => locator.isVisible started\n"
+                    },
+                    {
+                      "text": "api <= locator.isVisible succeeded\n"
+                    },
+                    {
+                      "text": "api => locator.isVisible started\n"
+                    },
+                    {
+                      "text": "api <= locator.isVisible succeeded\n"
+                    },
+                    {
+                      "text": "api => locator.isVisible started\n"
+                    },
+                    {
+                      "text": "api <= locator.isVisible succeeded\n"
+                    },
+                    {
+                      "text": "api => locator.isVisible started\n"
+                    },
+                    {
+                      "text": "api <= locator.isVisible succeeded\n"
+                    },
+                    {
+                      "text": "api => locator.click started\n"
+                    },
+                    {
+                      "text": "api <= locator.click succeeded\n"
+                    },
+                    {
+                      "text": "api => locator.click started\n"
+                    },
+                    {
+                      "text": "api <= locator.click succeeded\n"
+                    },
+                    {
+                      "text": "api => locator.click started\n"
+                    },
+                    {
+                      "text": "api <= locator.click succeeded\n"
+                    },
+                    {
+                      "text": "api => locator.fill started\n"
+                    },
+                    {
+                      "text": "api <= locator.fill succeeded\n"
+                    },
+                    {
+                      "text": "api => locator.fill started\n"
+                    },
+                    {
+                      "text": "api <= locator.fill succeeded\n"
+                    },
+                    {
+                      "text": "api => locator.fill started\n"
+                    },
+                    {
+                      "text": "api <= locator.fill succeeded\n"
+                    },
+                    {
+                      "text": "api => locator.fill started\n"
+                    },
+                    {
+                      "text": "api <= locator.fill succeeded\n"
+                    },
+                    {
+                      "text": "api => locator.fill started\n"
+                    },
+                    {
+                      "text": "api <= locator.fill succeeded\n"
+                    },
+                    {
+                      "text": "api => locator.selectOption started\n"
+                    },
+                    {
+                      "text": "api <= locator.selectOption succeeded\n"
+                    },
+                    {
+                      "text": "api => locator.selectOption started\n"
+                    },
+                    {
+                      "text": "api <= locator.selectOption succeeded\n"
+                    },
+                    {
+                      "text": "api => locator.click started\n"
+                    },
+                    {
+                      "text": "api <= locator.click succeeded\n"
+                    },
+                    {
+                      "text": "api => locator.click started\n"
+                    },
+                    {
+                      "text": "api <= locator.click succeeded\n"
+                    },
+                    {
+                      "text": "api => browser.newContext started\n"
+                    },
+                    {
+                      "text": "api <= browser.newContext succeeded\n"
+                    },
+                    {
+                      "text": "api => browserContext.newPage started\n"
+                    },
+                    {
+                      "text": "api <= browserContext.newPage succeeded\n"
+                    },
+                    {
+                      "text": "api => page.goto started\n"
+                    },
+                    {
+                      "text": "api <= page.goto succeeded\n"
+                    },
+                    {
+                      "text": "api => browserContext.newPage started\n"
+                    },
+                    {
+                      "text": "api <= browserContext.newPage succeeded\n"
+                    },
+                    {
+                      "text": "api => page.goto started\n"
+                    },
+                    {
+                      "text": "api <= page.goto succeeded\n"
+                    },
+                    {
+                      "text": "api => expect.toContainText started\n"
+                    },
+                    {
+                      "text": "api <= expect.toContainText succeeded\n"
+                    },
+                    {
+                      "text": "api => browserContext.close started\n"
+                    },
+                    {
+                      "text": "api <= browserContext.close succeeded\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "steps": [
+                    {
+                      "title": "Verify My Account Page Data",
+                      "duration": 333,
+                      "steps": [
+                        {
+                          "title": "Check Elemet visible or not",
+                          "duration": 8
+                        },
+                        {
+                          "title": "Check Elemet visible or not",
+                          "duration": 7
+                        },
+                        {
+                          "title": "Check Elemet visible or not",
+                          "duration": 7
+                        },
+                        {
+                          "title": "Check Elemet visible or not",
+                          "duration": 6
+                        },
+                        {
+                          "title": "Check Elemet visible or not",
+                          "duration": 5
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Checkout and Fill New Address",
+                      "duration": 8673
+                    }
+                  ],
+                  "startTime": "2024-02-13T07:21:16.667Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ec4bb1ba80ca63474ed3-df3caee5fb56f67a8c3c",
+          "file": "tests/addCartVerify.test.ts",
+          "line": 9,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2024-02-13T07:19:59.483Z",
+    "duration": 132103.34699999998,
+    "expected": 2,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

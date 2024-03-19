@@ -1,0 +1,35 @@
+{
+  "cookies": [
+    {
+      "name": "language",
+      "value": "en-gb",
+      "domain": ".ecommerce-playground.lambdatest.io",
+      "path": "/",
+      "expires": 1711019013.041249,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "currency",
+      "value": "USD",
+      "domain": ".ecommerce-playground.lambdatest.io",
+      "path": "/",
+      "expires": 1711019013.041249,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "OCSESSID",
+      "value": "9a20b7ffefb32beb17b95913a2",
+      "domain": "ecommerce-playground.lambdatest.io",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": []
+}
